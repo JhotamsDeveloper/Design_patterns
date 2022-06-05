@@ -79,6 +79,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MementoPattern", "MementoPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "src\MementoPattern\MementoPattern.csproj", "{93704F08-1A5B-45C4-9AF7-C9999ED7D467}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MediatorPattern", "MediatorPattern", "{A6EE799D-58FC-42EC-864D-80BACBA5866B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "src\MediatorPattern\MediatorPattern.csproj", "{9C5E72F2-D8EB-4B63-9949-DA06772283CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -169,6 +173,10 @@ Global
 		{93704F08-1A5B-45C4-9AF7-C9999ED7D467}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93704F08-1A5B-45C4-9AF7-C9999ED7D467}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93704F08-1A5B-45C4-9AF7-C9999ED7D467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C5E72F2-D8EB-4B63-9949-DA06772283CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C5E72F2-D8EB-4B63-9949-DA06772283CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C5E72F2-D8EB-4B63-9949-DA06772283CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C5E72F2-D8EB-4B63-9949-DA06772283CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -195,6 +203,7 @@ Global
 		{8AFE3837-4BDA-4D34-B1A5-A2467068CF4D} = {E7B0B2FC-6354-4FFA-AE60-0EEBCB2A8451}
 		{13EE7ADF-0FD0-402D-84AD-A51E1720024A} = {E7B0B2FC-6354-4FFA-AE60-0EEBCB2A8451}
 		{93704F08-1A5B-45C4-9AF7-C9999ED7D467} = {4474BACB-9AB7-4BCD-A828-AC016DBA1997}
+		{9C5E72F2-D8EB-4B63-9949-DA06772283CE} = {A6EE799D-58FC-42EC-864D-80BACBA5866B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A85F700-AF4F-4A6F-B322-38DFF88793F1}
