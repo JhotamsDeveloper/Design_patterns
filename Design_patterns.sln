@@ -91,6 +91,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObserverPattern", "Observer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "src\ObserverPattern\ObserverPattern\ObserverPattern.csproj", "{07FE66AF-437C-45ED-8BBD-81188B4BEFAE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StatePattern", "StatePattern", "{62720D4E-DCBF-4127-8D1B-79E3774AB0DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePatternOption1", "src\StatePattern\StatePatternOption1\StatePatternOption1.csproj", "{55CABD4D-5002-49CE-9BD7-BE3E2B6C3AC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -193,6 +197,10 @@ Global
 		{07FE66AF-437C-45ED-8BBD-81188B4BEFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07FE66AF-437C-45ED-8BBD-81188B4BEFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07FE66AF-437C-45ED-8BBD-81188B4BEFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55CABD4D-5002-49CE-9BD7-BE3E2B6C3AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CABD4D-5002-49CE-9BD7-BE3E2B6C3AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CABD4D-5002-49CE-9BD7-BE3E2B6C3AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CABD4D-5002-49CE-9BD7-BE3E2B6C3AC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -222,6 +230,7 @@ Global
 		{9C5E72F2-D8EB-4B63-9949-DA06772283CE} = {A6EE799D-58FC-42EC-864D-80BACBA5866B}
 		{FE6334B3-A0BC-4A97-85E7-B7B64D665FE2} = {10B36C23-FEF9-4F42-BE78-856FF2E7368A}
 		{07FE66AF-437C-45ED-8BBD-81188B4BEFAE} = {44FDC182-959D-4AE2-B32D-06177884AC9B}
+		{55CABD4D-5002-49CE-9BD7-BE3E2B6C3AC5} = {62720D4E-DCBF-4127-8D1B-79E3774AB0DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A85F700-AF4F-4A6F-B322-38DFF88793F1}
