@@ -101,11 +101,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePatternOption3", "src\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StrategyPattern", "StrategyPattern", "{E000B979-F525-47A4-BE0A-D3FD92E6BDBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "src\StrategyPattern\StrategyPattern.csproj", "{A6312FEA-8F0F-4575-BBD9-4A1F662DCEED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "src\StrategyPattern\StrategyPattern.csproj", "{A6312FEA-8F0F-4575-BBD9-4A1F662DCEED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TempletePattern", "TempletePattern", "{CF141A85-0B84-4BAD-83C1-C5645DBC3124}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempletePattern", "src\TempletePattern\TempletePattern.csproj", "{6EAD264B-8147-4899-A6E3-C889734136D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempletePattern", "src\TempletePattern\TempletePattern.csproj", "{6EAD264B-8147-4899-A6E3-C889734136D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VisitorPattern", "VisitorPattern", "{69FD431A-886F-426F-9383-397D14F37A35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "src\VisitorPattern\VisitorPattern.csproj", "{0F5CB159-130D-4384-B719-D8D96C62D413}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -229,6 +233,10 @@ Global
 		{6EAD264B-8147-4899-A6E3-C889734136D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EAD264B-8147-4899-A6E3-C889734136D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EAD264B-8147-4899-A6E3-C889734136D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5CB159-130D-4384-B719-D8D96C62D413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5CB159-130D-4384-B719-D8D96C62D413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5CB159-130D-4384-B719-D8D96C62D413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5CB159-130D-4384-B719-D8D96C62D413}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -263,6 +271,7 @@ Global
 		{0CDA186D-1DC4-4D5E-8A3F-20EBAE2B479B} = {62720D4E-DCBF-4127-8D1B-79E3774AB0DC}
 		{A6312FEA-8F0F-4575-BBD9-4A1F662DCEED} = {E000B979-F525-47A4-BE0A-D3FD92E6BDBA}
 		{6EAD264B-8147-4899-A6E3-C889734136D4} = {CF141A85-0B84-4BAD-83C1-C5645DBC3124}
+		{0F5CB159-130D-4384-B719-D8D96C62D413} = {69FD431A-886F-426F-9383-397D14F37A35}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A85F700-AF4F-4A6F-B322-38DFF88793F1}
