@@ -31,3 +31,7 @@ Ejemplos de patrones de diseños
 > - [Patrón de diseño strategy](https://github.com/JhotamsDeveloper/Design_patterns/tree/master/src/StrategyPattern)
 > - [Patrón de diseño templete](https://github.com/JhotamsDeveloper/Design_patterns/tree/master/src/TempletePattern)
 > - [Patrón de diseño visitor](https://github.com/JhotamsDeveloper/Design_patterns/tree/master/src/VisitorPattern)
+
+Estos son una recopilación de los cursos de udemy ofrecidos por 
+> - Rodrigo Morales
+> - Héctor de León
