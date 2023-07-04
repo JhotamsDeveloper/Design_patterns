@@ -12,11 +12,15 @@ List<Product> products = new()
 };
 
 //Crear Especification
-ISpecification<Product> electronicsSpec = new CategorySpecification("Electronics");
-ISpecification<Product> priceSpec = new PriceSpecification(500);
+ISpecification<Product> electronicsSpec = new 
+    CategorySpecification("Electronics");
+
+ISpecification<Product> priceSpec = new 
+    PriceSpecification(500);
 
 //Filtrar los productos usando las especificaciones
-List<Product> filterHandler = ProductFilterHandler.FilterBySpecification(products, electronicsSpec);
+List<Product> filterHandler = ProductFilterHandler
+    .FilterBySpecification(products, electronicsSpec);
 
 Console.WriteLine("Productos de la categoría 'Electronics':");
 foreach (Product product in filterHandler)
@@ -24,7 +28,9 @@ foreach (Product product in filterHandler)
     Console.WriteLine(product.Name);
 }
 
-filterHandler = ProductFilterHandler.FilterBySpecification(products, priceSpec);
+filterHandler = ProductFilterHandler
+    .FilterBySpecification(products, priceSpec);
+
 Console.WriteLine("\nProductos con precio menor o igual a $500:");
 foreach (Product product in filterHandler)
 {
